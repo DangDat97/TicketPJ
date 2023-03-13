@@ -1,0 +1,282 @@
+<section class="section ">
+  <div class="slider">
+    <div class="over-lay"></div>
+    <div class="container title">
+      <h1>FAQ</h1>
+      <div class="line my-3"></div>
+      <div>
+        <ul class="nav">
+          <li>Home</li>
+          <li> <i class="bi bi-chevron-double-right"></i></li>
+          <li>FAQ</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="section my-5">
+  <div class="container">
+    <div class="content">
+      <ul>
+        <li><p>Client Inquries</p></li>
+        <li> <div class="line"></div></li>
+        <li> <h1>Related Questions</h1></li>
+        <li> <p>EVERYTHING YOU NEED TO KNOW
+          Frequently Asked Questions</p></li>
+      </ul>
+    </div>
+  </div>
+</section>
+<section class="section">
+ <div class="container">
+   <div class="row">
+     <div class="col-6 ">
+       <div class="container"  >
+         <div  (clickOutside)="clickedOutside5()" >
+           <button class="menu-toggler" routerLinkActive="active" (click)="toggleMenu5()"><i class="bi bi-plus-lg">
+           </i><span>What are your opening hours?</span></button>
+           <div class="menu" *ngIf="isMenuOpened5">
+             <p>OPEN TODAY 9AM - 6PM</p>
+           </div>
+         </div>
+         <div  (clickOutside)="clickedOutside6()"  >
+
+           <button class="menu-toggler" (click)="toggleMenu6()">
+             <div>
+               <i class="bi bi-plus-lg"></i>
+             </div>
+             <span>What's included in my general admission ticket?  </span></button>
+           <div class="menu" *ngIf="isMenuOpened6">
+             <p>Each individual general admission ticket includes access to Georgia Aquarium, all Aquarium galleries & exhibits, general-seating Dolphin Presentation*, and Sea Lion Presentation*. $1 of every ticket sold supports ocean conservation and research. Guests typically spend 2-4 hours at the Aquarium, but you’re free to explore as long as you wish during your visit.
+
+               **To attend the Dolphin or Sea Lion Presentation, please make reservations at the Aquarium on the day of your visit.</p>
+           </div>
+         </div>
+         <div  (clickOutside)="clickedOutside7()" >
+           <button class="menu-toggler"  (click)="toggleMenu7()">
+             <i class="bi bi-plus-lg"></i> <span>Can I visit the Gift Shop without a ticket ?</span>
+           </button>
+           <div class="menu" *ngIf="isMenuOpened7">
+             <p>All guests are required to purchase a general admission ticket for entry to Georgia Aquarium.  The Gift Shop inside the Aquarium does not allow guests to just visit the gift shop without being granted admission to the Aquarium.  Our online Gift Shop is accessible 24 hours a day through this link.</p>
+           </div>
+         </div>
+         <div (clickOutside)="clickedOutside8()" >
+           <button class="menu-toggler"  (click)="toggleMenu8()">
+             <i class="bi bi-plus-lg"></i> <span>My picture was taken by the professional photographers at Aquarium, how can I find it?</span>
+           </button>
+           <div class="menu" *ngIf="isMenuOpened8">
+             <p>Showtime Pictures snaps photos as you enter the aquarium and during animal encounters.
+
+               Then as you leave the aquarium, you will see our custom photo kiosks where you can view and print your pictures immediately.</p>
+           </div>
+         </div>
+       </div>
+     </div>
+     <div class="col-6">
+      <div class="container "  >
+        <div (clickOutside)="clickedOutside1()">
+            <button class="menu-toggler"  (click)="toggleMenu1()">
+              <i class="bi bi-plus-lg"></i> <span>What can I wear to the aquarium?</span>
+            </button>
+          <div class="menu" *ngIf="isMenuOpened1">
+            <p>All visitors are expected to ensure their clothing and accessories are appropriate for a family environment. For example, visitors and staff should not wear items during their visit that may be considered offensive, contain nudity, profanity, sexual innuendo/suggestions, promote negative ethnic or racial commentary, or hatred/violence in any form.</p>
+          </div>
+        </div>
+        <div  (clickOutside)="clickedOutside2()">
+          <button class="menu-toggler"  (click)="toggleMenu2()">
+            <i class="bi bi-plus-lg"></i><span>Do you have preferred hotels near the aquarium?</span>
+          </button>
+          <div class="menu" *ngIf="isMenuOpened2">
+            <p>Choose from a selection of our preferred hotel partners close to Georgia Aquarium. Explore our specially crafted packages to make your trip, staycation or visit to Atlanta an amazing one.</p>
+          </div>
+        </div>
+        <div (clickOutside)="clickedOutside3()" >
+          <button class="menu-toggler" (click)="toggleMenu3()"> <i class="bi bi-plus-lg"></i>
+            <span>Can I buy shirts that look like the ones staff wears?</span>
+          </button>
+          <div class="menu" *ngIf="isMenuOpened3">
+            <p>Georgia Aquarium is glad to offer a variety of branded apparel in our gift shops, however we do not sell Aquarium team member uniforms. For the safety of our guests, team and animals, it is important that we are always able to discern between members of the public and Georgia Aquarium staff and volunteers.</p>
+          </div>
+        </div>
+        <div (clickOutside)="clickedOutside4()" >
+          <button class="menu-toggler" (click)="toggleMenu4()">
+            <i class="bi bi-plus-lg"></i><span>Lost & Found</span>
+          </button>
+          <div class="menu" *ngIf="isMenuOpened4">
+            <p>Thank you for your recent visit, and we are sorry to hear that you may have left some items behind. We ask that you please follow the link below, to provide us all the details of what we will be looking for. Upon submission of your lost item report, you will receive further instructions.</p>
+          </div>
+        </div>
+      </div>
+   </div>
+   </div>
+ </div>
+</section>
+<section class="section mg-top  ">
+  <div class="container-fluid ">
+    <div class="row ">
+      <div class="col-6 services-full services ">
+        <div>
+          <ul>
+            <li><h5>What We Do</h5></li>
+            <li><div class="line"></div></li>
+            <li><h1>We Make An Aquarium That Spoils The Eyes</h1></li>
+            <li>In order that our guests with disabilities may enjoy the aquarium to the fullest, aquarium staff members will be made available to hold/walk or kennel the service animal while other aquarium staff accompany the guest through the exhibit.</li>
+          </ul>
+        </div>
+        <div class="row">
+          <div class="col-6 content-services py-5 ">
+            <ul>
+              <li>
+                <div class="circle_box">
+                  <div>
+                    <svg>
+                      <circle cx="70" cy="70" r="70"  id="above-top"/>
+                    </svg>
+                    <span>98%</span>
+                  </div>
+                </div>
+              </li>
+              <li><h1>Infrastructure</h1></li>
+              <li><p>Infrastructure such as aquariums, shops, .....</p></li>
+              <li><a routerLink="/about">Read More</a></li>
+            </ul>
+          </div>
+          <div class="col-6 content-services py-5">
+            <ul>
+              <li>
+                <div class="circle_box">
+                  <div>
+                    <svg>
+                      <circle cx="70" cy="70" r="70"  class="above-under"/>
+                    </svg>
+                    <span>86%</span>
+                  </div>
+                </div>
+              </li>
+              <li><h1>Customer care</h1></li>
+              <li><p>Happy employees, happy customers. At least, that's what they say.</p></li>
+              <li><a routerLink="/about">Read More</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="col-6 services-img ">
+        <div class="bg-img-1">
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="section mg-top">
+  <div class="container">
+    <div class="row">
+      <div class="col-6 new-title">
+        <ul>
+          <li><h5>Our News</h5></li>
+          <li><div class="line"></div></li>
+          <li><h1>News & Articles</h1></li>
+        </ul>
+      </div>
+      <div class="col-6  new-title">
+        <p>
+          Where to update information as well as articles about aquariums and animals
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="section">
+  <div class="container">
+    <div class="row">
+      <div class="col-4 bg-new">
+        <img src="../../assets/images/colorful-fish-from-the-spieces-symphysodon-discus-in-aquarium--e1628655050154.jpg" alt="">
+        <div class="overlay" >
+          <div>
+            <a routerLink="/blog-single/1">Saltwater</a>
+          </div>
+          <div>
+            <h1><a routerLink="/blog-single/1">Different Aquariums For Different Ideas</a></h1>
+            <p>Meet some adorable new arrivals and learn about the Aquarium’s breeding programs that promote ocean conservation....</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-4 bg-new">
+        <img src="../../assets/images/carp-fish-in-the-aquarium-e1628655039273.jpg" alt="">
+        <div class="overlay-2">
+          <div class="design">
+            <a routerLink="/blog-single/2">Design</a>
+          </div>
+          <div>
+            <h1><a routerLink="/blog-single/2">Freshwater Aquarium Setups & Care</a></h1>
+            <p>Support the programs and animals you know and love with a monthly donation of any size.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-4 table-new">
+        <div>
+          <h5>Recent News</h5>
+          <div class="line"></div>
+        </div>
+        <div class="recent-news">
+          <ul>
+            <li>
+              <div class="row">
+                <div class="col-5">
+                  <img src="../../assets/images/salt-water-aquarium-e1628655024510.jpg" alt="#">
+                </div>
+                <div class="col-7 news">
+                  <a routerLink="/blog-single/3">Lifespan Of Freshwater Aquarium Fishes</a>
+                  <div class="nav">
+                    <i class="bi bi-calendar"></i><p>August 7, 2021</p>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="row">
+                <div class="col-5">
+                  <img src="../../assets/images/colorful-sea-fish-in-aquarium-800x533.jpg" alt="#">
+                </div>
+                <div class="col-7 news">
+                  <a routerLink="/blog-single/4">Aquarium Aquascape Design Ideas For House</a>
+                  <div class="nav">
+                    <i class="bi bi-calendar"></i><p>August 8, 2021</p>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="row">
+                <div class="col-5">
+                  <img src="../../assets/images/aquarium-1-800x600.jpg" alt="#">
+                </div>
+                <div class="col-7 news">
+                  <a routerLink="/blog-single/5">Guide To Keeping Freshwater Sword Tails</a>
+                  <div class="nav">
+                    <i class="bi bi-calendar"></i><p>
+                    August 20, 2021</p>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="row">
+                <div class="col-5">
+                  <img src="../../assets/images/exotic-fish-in-a-collector-s-aquarium-800x533.jpg" alt="#">
+                </div>
+                <div class="col-7 news">
+                  <a routerLink="/blog-single/6">How To Acclimate Tropical Fish Tank</a>
+                  <div class="nav">
+                    <i class="bi bi-calendar"></i><p>August 7, 2021</p>
+                  </div>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+

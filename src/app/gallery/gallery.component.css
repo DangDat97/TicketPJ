@@ -1,0 +1,404 @@
+.container{
+  height: 100%;
+}
+.Gallery{
+  background-image: url("../../assets/images/close-up-on-green-fresh-water-aquarium-e1628655395582.jpg");
+  height: 497px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.home{
+  text-align: left;
+  position: absolute;
+  bottom: 80px;
+}
+.Gallery h1{
+  color: #FFFFFF;
+  font-weight: 800;
+  padding-bottom: 15px;
+}
+.Gallery h6{
+  color: #FFFFFF;
+  padding-top: 25px;
+  font-weight: 500;
+}
+.ngang{
+  height: 2px;
+  width: 37px;
+  background: #19cbe4;
+}
+i{
+  color: #19cbe4;
+  padding-right: 12px;
+}
+.Nature-Aquarium{
+  padding: 80px;
+  text-align: left;
+}
+.Nature-Aquarium p{
+  font-weight: 600;
+  margin-bottom: 13px;
+  color: #1d252b;
+}
+.Nature-Aquarium h1{
+  font-weight: 800;
+  margin-top: 26px;
+  margin-bottom: 23px;
+  color: #1d252b;
+}
+
+.Gianyar{
+  margin-top: 27px;
+  font-weight: 800;
+}
+.Gianyar h4{
+  font-weight: 900;
+  color: #1d252b;
+}
+.Gianyar p{
+  color: #19cbe4;
+  color: #1d252b;
+}
+.read-more{
+  margin-top: 30px;
+}
+.read-more >a{
+  padding: 20px 40px;
+  background: #19cbe4;
+  border: none;
+  font-weight: 600;
+  color: black;
+}
+.read-more >a:hover{
+  background: #082441;
+  color: #19cbe4;
+}
+.col-6 {
+  padding: 0px;
+}
+.section-e3{
+  margin-bottom: 100px;
+}
+.ngang-one{
+  height: 2px;
+  width: 37px;
+  background: #19cbe4;
+  text-align: center;
+  margin-left: 628px;
+}
+.section-e4{
+  margin-bottom: 100px;
+}
+.Testimonial{
+  text-align: center;
+}
+.Testimonial h5{
+  font-weight: 400;
+  color: #1d252b;
+}
+.img1{
+  height: 100%;
+}
+.img1 >img{
+  height: 100%;
+  object-position: center;
+  object-fit: cover;
+}
+
+.Testimonial h1{
+  margin-top: 25px;
+  font-weight: 800;
+  margin-bottom: 30px;
+  color: #1d252b;
+}
+.Testimonial P{
+  font-weight: 100;
+  padding-bottom: 30px;color: #1d252b;
+}
+.col-3{
+  padding: 0px;
+}
+.Rita-Eland{
+  padding: 50px;
+}
+.Rita-Eland h6{
+  font-weight: 800;
+  margin-top: 28px;
+  color: #1d252b;
+}
+.Rita-Eland h5{
+  font-weight: 100;
+  color: #1d252b;
+}
+.img4 img{
+  border-radius: 50%;
+}
+.Lola-Bailey{
+  margin: 20px 10px;
+  padding: 10px 60px 40px ;
+
+}
+.dat-img{
+  background-image: url("../../assets/images/dat8.jpg");
+  height: 960px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.dat-img col-6:last-child{
+  position: absolute;
+  right: 15px;
+  bottom: 15px;
+  text-align: left;
+  padding: 20px 60px ;
+  bottom: 19px;
+  background-color: #FFFFFF;
+
+}
+.sider{
+  background: #FFFFFF;
+
+  position: absolute;
+  top: 600px;
+  margin-right: 10px;
+  margin: 10px 37px;
+  padding: 46px 27px;
+
+
+}
+.img5 img{
+  border-radius: 50%;
+  width: 60px;
+  height: 100%;
+}
+.name h5{
+  font-weight: 800;
+  color: #1d252b;
+}
+.name p {
+  color: #19cbe4;
+
+
+}
+
+.sao{
+  padding-bottom: 15px;
+}
+.over-lay{
+  background-color: #082441;
+  opacity: 0.5;
+  transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  position: absolute;
+
+}
+.Design-Install:hover > h4{
+  color: #19CBE4;
+}
+.carousel-item-active .sao1{
+  text-align: initial;
+}
+.home-e7 > div{
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 843px;
+  transition: 0.3s ease;
+}
+.home-e7 .row{
+  --bs-gutter-x:0px;
+  height: 100%;
+}
+.home-e7 .col-3{
+  border-right: 1px solid rgba(255,255,255,.3) ;
+  padding: 0px;
+  height: 100%;
+  position: relative;
+}
+.home-e7 .col-3 h3{
+  color: white;
+  padding: 62px ;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  top:0px;
+  font-weight: 600;
+}
+.home-e7 .col-3 .bg-w{
+  background-color: #fff;
+  height: 0px;
+  position: relative;
+  transition: height 0.5s;
+}
+.home-e7 .col-3:hover .bg-w{
+  height: 164px;
+}
+.home-e7 .col-3:hover h3{
+  color: #1D252B;
+}
+.testimonial{
+  text-align: center;
+  padding-top: 100px;
+
+}
+.testimonial .line{
+  position: relative;
+  left: 48%;
+  width: 41px;
+}
+.testimonial h6{
+  color: black;
+  font-weight: 500;
+}
+.testimonial h1{
+  font-weight: 600;
+  color: black;
+}
+.testimonial p{
+  padding: 0 20%;
+  font-size: 14px;
+  color: black;
+}
+.comment{
+  text-align: left;
+  padding:10px 0px;
+}
+.comment li:last-child {
+  padding-top: 15px;
+}
+.comment p{
+  font-size: 20px;
+  font-style: oblique;
+  color: black;
+}
+.comment h5{
+  font-weight: 600;
+  color: black;
+}
+.comment-img {
+  padding: 0;
+}
+.comment-2{
+  text-align: left;
+  padding:10px 0px;
+}
+.comment-2 li:first-child {
+  padding-top: 20px;
+}
+.comment-2 li:last-child{
+  padding-top: 15px;
+}
+.comment-2 p{
+  font-size: 20px;
+  font-style: oblique;
+}
+.comment-2 h5{
+  font-weight: 600;
+  color: black;
+}
+.comment-img-1{
+  padding: 0;
+}
+.comment-img-1 >img{
+  width: 285px;
+  height: 285px;
+}
+.comment-1{
+  text-align: left;
+  padding:10px 0px;
+}
+.comment-1 li:first-child {
+  padding-top: 20px;
+}
+.comment-1 li:last-child{
+  padding-top: 15px;
+}
+.comment-1 p{
+  font-size: 20px;
+  font-style: oblique;
+}
+.comment-1 h5{
+  font-weight: 600;
+  color: black;
+}
+.section-e2 .row{
+  --bs-gutter-x:0px;
+}
+
+/*endservices*/
+.bg-img{
+  background-image: url("../../assets/images/family-watchig-fishes-at-a-aquarium-e1628654789954.jpg");
+  width: 106%;
+  height: 960px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.slider-respond{
+  width: 550px;
+  height: 264px;
+  position: absolute;
+  right: 5%;
+  bottom: 15%;
+
+}
+.respond{
+  background-color: white;
+  text-align: left;
+  padding:20px 60px 40px 60px;
+}
+.respond li{
+  padding-top: 20px;
+}
+.respond p{
+  color: #7F7F7F;
+}
+.respond i{
+  padding-left: 5px;
+  color: yellow;
+}
+.respond i:first-child{
+  padding: 0;
+}
+.respond img{
+  border-radius: 50%;
+}
+.profile-name{
+  padding: 0;
+  margin-top: 5px;
+}
+.profile-name ul{
+  padding: 0;
+}
+.profile-name h5{
+  font-weight: 600;
+  color: black;
+}
+.profile-name p{
+  color: #19CBE4;
+}
+.profile-name li{
+  padding: 0;
+}
+.mg-top{
+  margin-top: 100px;
+  padding-bottom: 100px;
+}
+.gallery-e8 img{
+  object-position: center;
+  object-fit: cover;
+  height: 100%;
+}
+.gallery-e8 ul{
+  padding: 20px;
+}
+
+.gallery-e8 p{
+  font-size: 18px;
+}

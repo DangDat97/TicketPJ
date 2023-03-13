@@ -1,0 +1,399 @@
+/*slider*/
+.slider{
+  background-image: url(../../assets/images/a-boy-immersed-in-marine-wild-life-e1628655317886.jpg);
+  background-position: 0px 65%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 0px;
+  transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding: 200px 0px 200px 0px;
+  position: relative;
+  color: white;
+  font-weight: 600;
+}
+.over-lay{
+  background-color: #082441;
+  opacity: 0.5;
+  transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  position: absolute;
+}
+.title{
+  text-align: left;
+  z-index: 100;
+}
+.line{
+  width: 50px;
+  height: 2px;
+  background-color: #19CBE4;
+}
+.nav>li>i{
+  color: #19CBE4;
+}
+/*endslider*/
+/*categories*/
+.el-1 p{
+  height: 100px;
+}
+.el-1 > ul{
+  text-align: left;
+  background-color: #19CBE4;
+  padding: 35px 30px;
+}
+.el-1>ul>li{
+  padding-top: 10px;
+}
+.el-1>ul>li>i{
+  color: black;
+  font-size: 40px;
+}
+.el-1>ul>li>h5{
+  color: #1d252b;
+  font-weight: 600;
+  font-size: 20px;
+}
+.el-1>ul>li>p{
+  color: #1d252b;
+  font-size: 14px;
+  font-weight: 500;
+}
+.el-1>ul>li>a{
+  color: black;
+  font-size: 15px;
+  font-weight: 600;
+}
+.el-2 p{
+  height: 100px;
+}
+.el-2 >ul{
+  text-align: left;
+  padding: 35px 30px;
+}
+.el-2 > ul:hover{
+  background-color: #19CBE4;
+}
+.el-2:hover>ul>li>a{
+  color: #1d252b;
+}
+.el-2>ul>li{
+  padding-top: 10px;
+}
+.el-2>ul>li>i{
+  color: black;
+  font-size: 40px;
+}
+.el-2>ul>li>h5{
+  color: #1d252b;
+  font-weight: 600;
+  font-size: 20px;
+}
+.el-2>ul>li>p{
+  color: #1d252b;
+  font-size: 14px;
+  font-weight: 500;
+}
+.el-2>ul>li>a{
+  color: #19CBE4;
+  font-size: 15px;
+  font-weight: 600;
+}
+.content{
+  text-align: left;
+}
+.content>ul>li:first-child{
+  padding-top: 0;
+}
+.content>ul>li:last-child{
+  padding-top: 30px;
+}
+.content >ul>li{
+  padding-top: 15px;
+}
+.content >ul>li>h5{
+  font-weight: 500;
+  color: black;
+}
+.content >ul>li>h1{
+  font-weight: 600;
+  color: black;
+}
+.content >ul>li>button{
+  padding: 20px 45px;
+  border: none;
+  background-color: #19CBE4;
+  font-weight: 600;
+}.content >ul>li:hover>button{
+  background-color: #1d252b;
+  color: #19CBE4;
+ }
+/*endcategories*/
+/*services*/
+.services{
+  background-color: #1d252b;
+  padding: 0;
+  text-align: left;
+}
+.services-full{
+  padding: 0 60px;
+  height: auto;
+}
+.services-full ul{
+  padding: 0;
+}
+.services-img{
+  padding: 0;
+  text-align: left;
+  --spacer-size:750px;
+  /*background-image: url("../../assets/images/different-tropical-fish-on-a-coral-reef-in-the-red-sea-e1628654765211.jpg");*/
+}
+.services-img >img{
+  --spacer-size:750px;
+}
+.bg-img-1{
+  height:750px;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-image: url("../../assets/images/different-tropical-fish-on-a-coral-reef-in-the-red-sea-e1628654765211.jpg");
+}
+.services>div>ul>li{
+  padding-top: 15px;
+}
+.services>div>ul>li:first-child{
+  padding-top: 30px;
+  padding-bottom: 0px;
+}
+.services>div>ul>li>h5{
+  color: white;
+  font-weight: 600;
+}
+.services>div>ul>li>h1{
+  color: white;
+  font-weight: 600;
+}
+.content-services{
+  text-align: left;
+}
+
+.content-services i{
+  color: #19CBE4;
+  text-align: center;
+  font-size: 100px;
+}
+.content-services li{
+  padding-top: 15px;
+}
+.content-services h1{
+  font-size: 20px;
+  font-weight: 600;
+  color: white;
+}
+.content-services>ul>li>a{
+  border: none;
+  color: #19CBE4;
+  font-weight: 600;
+
+}
+.content-services>ul>li>a:hover{
+  position: relative;
+  top: 10px;
+}
+.testimonial{
+  text-align: center;
+  padding-top: 100px;
+
+}
+.testimonial .line{
+  position: relative;
+  left: 48%;
+  width: 41px;
+}
+.testimonial h6{
+  color: black;
+  font-weight: 500;
+}
+.testimonial h1{
+  font-weight: 600;
+  color: black;
+}
+.testimonial p{
+  padding: 0 20%;
+  font-size: 14px;
+  color: black;
+}
+.comment{
+  text-align: left;
+  padding:10px 0px;
+}
+.comment li:last-child {
+  padding-top: 15px;
+}
+.comment p{
+  font-size: 16px;
+  font-style: oblique;
+}
+.comment h5{
+  font-weight: 600;
+  color: black;
+}
+.comment-img {
+  padding: 0;
+}
+.comment-2{
+  text-align: left;
+  padding:10px 0px;
+}
+.comment-2 li:first-child {
+  padding-top: 20px;
+}
+.comment-2 li:last-child{
+  padding-top: 15px;
+}
+.comment-2 p{
+  font-size: 16px;
+  font-style: oblique;
+}
+.comment-2 h5{
+  font-weight: 600;
+  color: black;
+}
+.comment-img-1{
+  padding: 0;
+}
+.comment-img-1 >img{
+  width: 285px;
+  height: 285px;
+}
+.comment-1{
+  text-align: left;
+  padding:10px 0px;
+}
+.comment-1 li:first-child {
+  padding-top: 20px;
+}
+.comment-1 li:last-child{
+  padding-top: 15px;
+}
+.comment-1 p{
+  font-size: 16px;
+  font-style: oblique;
+}
+.comment-1 h5{
+  font-weight: 600;
+  color: black;
+}
+/*endservices*/
+.bg-img{
+  background-image: url("../../assets/images/family-watchig-fishes-at-a-aquarium-e1628654789954.jpg");
+  width: 106%;
+  height: 960px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.slider-respond{
+  width: 550px;
+  height: 264px;
+  position: absolute;
+  right: 5%;
+  bottom: 15%;
+
+}
+.respond{
+  background-color: white;
+  text-align: left;
+  padding:20px 60px 40px 60px;
+}
+.respond li{
+  padding-top: 20px;
+}
+.respond p{
+  color: #7F7F7F;
+}
+.respond i{
+  padding-left: 5px;
+  color: yellow;
+}
+.respond i:first-child{
+  padding: 0;
+}
+.respond img{
+  border-radius: 50%;
+}
+.profile-name{
+  padding: 0;
+  margin-top: 5px;
+}
+.profile-name ul{
+  padding: 0;
+}
+.profile-name h5{
+  font-weight: 600;
+  color: black;
+}
+.profile-name p{
+  color: #19CBE4;
+}
+.profile-name li{
+  padding: 0;
+}
+.mg-top{
+  margin-top: 100px;
+}
+circle{
+  stroke-width:5px;
+  fill:none;
+}
+#above-top{
+  stroke: #19CBE4;
+  stroke-dasharray:440 ;
+  stroke-dashoffset: 440;
+  animation: spiner1 3s steps(332) forwards ;
+}
+.above-under{
+  stroke: #19CBE4;
+  stroke-dasharray:440 ;
+  stroke-dashoffset: 440;
+  animation: spiner 3s steps(60) forwards;
+}
+
+@keyframes spiner {
+  100%{
+    stroke-dashoffset: 60;
+  }
+
+}
+@keyframes spiner1 {
+  100%{
+    stroke-dashoffset:8;
+  }
+
+}
+
+.circle_box{
+  text-align: left ;
+}
+.circle_box div{
+  position: relative;
+}
+.circle_box span{
+  position: absolute;
+  left: 29%;
+  top: 35%;
+  transform: translate(-50%,-50%);
+  color: #fff;
+  font-size: 30px;
+  font-weight: 600;
+}
+svg{
+  width: 100px;
+  height: 100px;
+  transform: rotate(-90deg);
+  overflow: initial;
+}

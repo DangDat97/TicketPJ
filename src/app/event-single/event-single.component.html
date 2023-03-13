@@ -1,0 +1,38 @@
+<section class="section mb-5" >
+  <img [src]="events.banner" alt="">
+  <div class="head">
+    <h1>{{events.name}}</h1>
+    <div class="nav">
+      <p>Home</p>
+      <i class="bi bi-chevron-double-right"></i>
+      <p>All Events</p>
+      <i class="bi bi-chevron-double-right"></i>
+      <p>{{events.name}}</p>
+    </div>
+  </div>
+</section>
+<section class="section">
+  <div class="container content">
+    <div class="row">
+      <div class="col-8">
+        <h1>Introduce</h1>
+        <p>{{events.description}}</p>
+      </div>
+      <div class="col-4 detail">
+         <div>
+           <h5>EVENT DETAILS</h5>
+           <h6>Date & Time</h6>
+           <h5>START:{{events.BEGIN_time | date}}</h5>
+           <h5>END:{{events.END_time | date}}</h5>
+           <p>Price Personal:${{events.price_personal}}</p>
+           <p>Price Family:${{events.price_family}}</p>
+         </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="section mt-5">
+  <div class="container ticket">
+    <a routerLink="/ticket">Get Ticket</a>
+  </div>
+</section>

@@ -1,0 +1,71 @@
+.section{
+  position: relative;
+}
+.container{
+  position: relative;
+}
+.over-lay-bg{
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  position: absolute;
+  background-color: #082441;
+  opacity: 0.5;
+  transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+}
+.over-lay{
+  background-image: linear-gradient(180deg, #02010124 0%, #01060C 95%);
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  position: absolute;
+  background-color: #1d1d1d;
+  opacity: 0.3;
+  transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+}
+
+img{
+  width: 100%;
+  height: 600px;
+}
+.head{
+  text-align: left;
+  position: absolute;
+  z-index: 5;
+  top: 50%;
+  left: 9%;
+}
+.head h3{
+  color: white;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+.nav{
+  padding-top: 30px;
+}
+.nav i{
+  padding:3px 10px;
+  color: #19CBE4;
+}
+.nav p{
+  color: white;
+  font-size: 20px;
+  text-transform: capitalize;
+}
+.container-blog{
+  width: 600px;
+  margin: 0 auto;
+}
+.container-blog img{
+  height: auto;
+}
+.content{
+  text-align: left;
+}
+.content h6{
+  color: black;
+  font-weight: 600;
+  margin-top: 30px;
+}

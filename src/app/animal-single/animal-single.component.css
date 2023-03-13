@@ -1,0 +1,82 @@
+.section{
+    position: relative;
+  }
+  .over-lay{
+    background-image: linear-gradient(180deg, #02010124 0%, #01060C 95%);
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    background-color: #082441;
+    opacity: 0.7;
+    transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+  }
+  img{
+    width: 100%;
+    height: auto;
+  }
+  .head{
+    text-align: left;
+    position: absolute;
+    z-index: 5;
+    top: 50%;
+    left: 9%;
+  }
+  .head h1{
+    color: white;
+    font-weight: 600;
+    text-transform: capitalize;
+  }
+  .nav{
+    padding-top: 30px;
+  }
+  .nav i{
+    padding:3px 10px;
+    color: #19CBE4;
+  }
+  .nav p{
+    color: white;
+    font-size: 20px;
+    text-transform: capitalize;
+  }
+  .line{
+    color: #19CBE4;
+    width: 20px;
+    height: 10px;
+  }
+  .content{
+    text-align: left;
+  }
+  .content h1{
+    color: black;
+    font-weight: 600;
+  }
+  .content h5{
+    font-weight: 600;
+    color: #1d252b;
+  
+  }
+  .content p{
+    color: black;
+  }
+  .info{
+    text-align: center;
+  }
+  .info i{
+    color: #1d2bed;
+    font-size: 40px;
+  
+  }
+  .info h6{
+    font-size: 20px;
+    padding-top: 15px;
+    color: black;
+    font-weight: 600;
+  
+  }
+  .info p{
+    font-weight: 500;
+  
+  }
+  

@@ -1,0 +1,678 @@
+.overlay{
+  background-color: #082441;
+  opacity: 0.5;
+  transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  position: absolute;
+}
+.section,
+.container,
+.container-fuild{
+  position: relative;
+}
+.home-e1{
+  text-align: left;
+}
+.home-e1 h1,
+.home-e1 h5{
+  font-weight: 600;
+}
+.home-e1 h1{
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+.home-e1 .home-e1-text{
+  margin-bottom: 20px;
+}
+
+.line{
+  height: 1px;
+  width: 32px;
+  background-color: aqua;
+  margin: 10px 0px 20px 0px;
+}
+.home-e1 .home-e1-link{
+  padding-top: 20px;
+}
+
+.home-e1 a{
+  padding: 18px 48px;
+  width: 100%;
+  font-size: 18px;
+  font-weight: 600;
+}
+.home-e1 .get{
+  color: #1D252B;
+  background-color: #19CBE4;
+  border: 1px solid #19CBE4;
+}
+.home-e1 .get:hover{
+  background-color: #1CAFC4;
+  border: 1px solid #1CAFC4;
+}
+
+.home-e1 .read{
+  background-color: none;
+  border: 1px solid #ffffff;
+}
+.home-e1 .read:hover{
+  color: #1CAFC4;
+  background-color: #1D252B;
+  border: 1px solid #1D252B;
+}
+.home-e2{
+  margin-top: -274px;
+  margin-bottom: 150px;
+  text-align: left;
+}
+.home-e2 .col{
+  padding: 0px;
+}
+.home-e2 .row{
+  --bs-gutter-x:0px;
+}
+
+.home-e2 .home-e2-card{
+  background-color: #82FFDB1C;
+  transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+  margin-top: 50px;
+  padding: 42px 20px 41px 35px;
+}
+.home-e2 .home-e2-card h3{
+  font-weight: 600;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+.home-e2 .home-e2-card p{
+  margin-bottom: 20px;
+}
+.home-e2 .home-e2-card a{
+  color: #19CBE4;
+  font-weight: 600;
+}
+.home-e2 .home-e2-card a:hover{
+  color: #1CAFC4;
+}
+
+.home-e2 .home-e2-img {
+  background-image: url(../../assets/images/jellyfish-under-water-minimal-art-e1628654637349.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.home-e3{
+  padding-bottom: 100px;
+  text-align: left;
+}
+.home-e3 .col-5{
+  padding-right: 0px;
+}
+.home-e3-l img{
+  width: 97%;
+  height: auto;
+  box-shadow: 99px 45px 0px -45px #1d252b;
+}
+.home-e3-l .num-play{
+  display: flex;
+  align-self: center;
+  align-items: center;
+  background-color: #19CBE4;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  position: absolute;
+  left: 12.5%;
+  bottom: 46px;
+}
+.home-e3-l .num-play:hover{
+  background-color: #1CAFC4;
+}
+
+
+.num-play{
+  margin: auto;
+  margin-top: 10rem;
+  background-color: #fff;
+  animation: ripple 2s linear infinite;
+}
+
+.home-e3-l i{
+  font-size: 52px;
+  color: #1D252B;
+  padding: 18px 17px;
+  line-height: 1;
+}
+.home-e3-l-text{
+  position: absolute;
+  left: 17%;
+  bottom: 0px;
+  background-color: #1d252b ;
+  padding: 40px 65px;
+  text-align: center;
+}
+.home-e3-l-text h1{
+  font-size: 48px;
+  font-weight: 600;
+  margin-left: 22px;
+}
+.home-e3-l-text i{
+  font-size: 32px;
+  color: #19CBE4;
+  padding: 0px;
+  line-height: 1;
+}
+.home-e3-l-text p{
+  color: #19CBE4;
+}
+.ripple {
+  margin-left: 22px;
+  width: 1rem;
+  height: 1rem;
+  border-radius: 50%;
+  display: grid;
+  animation: ripple 1s linear infinite;
+}
+
+
+.ripple::after {
+  animation-delay: 2s;
+}
+
+@keyframes ripple {
+  0% {
+    box-shadow: 0 0 0 4px rgba(255, 255, 255, 0.2),
+                0 0 0 8px rgba(255, 255, 255, 0.2);
+  }
+  100% {
+    box-shadow: 0 0 0 16px rgba(255, 255, 255, 0),
+                0 0 0 32px rgba(255, 255, 255, 0);
+  }
+}
+
+
+.home-e3-r{
+  color: #1D252B;
+  padding: 40px 10px 10px 10px;
+  margin-left: 80px;
+}
+.home-e3-r >h1{
+  font-size: 58px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.home-e3-r .col p,
+.home-e3-r >p{
+  color: #7F7F7F;
+  margin-bottom: 20px;
+}
+.home-e3-r .col i{
+  font-size: 40px;
+  color: #19CBE4;
+  bottom:0px;
+}
+.home-e3-r .col i:hover{
+  position: relative;
+  bottom: 10px;
+  transition-duration: .3s;
+  transition-property: transform;
+  transition-timing-function: ease-out;
+}
+
+.home-e3-r .col:last-child{
+margin-left: 20px;
+}
+
+.home-e3-r .col h4{
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.home-e3-r .col a{
+  color: #19CBE4;
+  font-weight: 600;
+  padding-top: 20px;
+}
+.home-e3-r .col:hover a{
+  color: #1D252B;
+}
+
+.home-e4{
+  color: #1D252B;
+  padding-bottom: 100px;
+}
+.home-e4 .col-2 img{
+    max-width: 50%;
+    margin-bottom: 20px;
+    height: 94px;
+}
+.home-e4 .col-2 h3{
+  font-weight: 600;
+}
+
+.home-e4 .row:first-child{
+  margin-bottom: 50px;
+}
+
+.home-e5{
+  padding-bottom: 100px;
+}
+
+.home-e5-l{
+  background-color: #1D252B;
+  transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+  padding: 5%;
+  text-align: left;
+}
+
+.home-e5-l .row > .col-6:nth-child(1) circle{
+  stroke-dasharray: 444;
+  stroke-dashoffset: calc(444 - (444 * 98) / 100);
+  stroke-width: 5px;
+}
+.home-e5-l .row > .col-6:nth-child(2) circle{
+  stroke-dasharray: 444;
+  stroke-dashoffset: calc(444 - (444 * 90) / 100);
+  stroke-width: 5px;
+}
+.home-e5-l .statis{
+  position: absolute;
+  top: 18%;
+  left: 10%;
+}
+.home-e5-l h1{
+  font-size: 49px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+.home-e5-l .row{
+  margin-top: 50px;
+}
+.home-e5-l .col-6{
+  padding-right: 90px;
+  position: relative;
+}
+.home-e5-l .col-6 p{
+  margin-bottom: 20px;
+}
+.home-e5-l .col-6 svg{
+  margin-bottom: 20px;
+}
+.home-e5-l .col-6 a{
+  color: #19CBE4;
+  font-weight: 600;
+}
+.home-e5-l .col-6 a:hover{
+  position: relative;
+  top:10px;
+  transition-duration: .3s;
+  transition-property: transform;
+  transition-timing-function: ease-out;
+}
+
+.home-e5-l p{
+  color: #7F7F7F;
+}
+
+
+.home-e5 .row{
+ --bs-gutter-x: 0rem;
+}
+.home-e5 .home-e5-r{
+  background-image: url("../../assets/images/different-tropical-fish-on-a-coral-reef-in-the-red-sea-e1628654765211.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 700px;
+}
+
+.home-e6{
+  color: #1D252B;
+  text-align: left;
+  padding-bottom: 100px;
+}
+.home-e6 span{
+  font-size: 50px;
+  padding: 0px;
+}
+
+.home-e6 span:hover{
+  position: relative;
+  bottom: 10px;
+}
+
+
+.home-e6 .row .row .col > div{
+  padding: 35px 30px;
+}
+
+.home-e6 > .container > .row:first-child >.col:last-child{
+  margin: 10px 10px 10px 50px;
+}
+
+.home-e6 h1{
+  font-size: 54px;
+  font-weight: 600;
+  padding-bottom: 20px;
+}
+.home-e6 a{
+  font-weight: 600;
+}
+
+.home-e6 > .container > .row:first-child >.col:last-child a{
+  padding: 15px 45px;
+  background-color: #19CBE4;
+  color: #1D252B;
+}
+.home-e6 > .container > .row:first-child >.col:last-child a:hover{
+  background-color: #1D252B;
+  color: #19CBE4;
+}
+
+.home-e6 .row .row .col:first-child > div{
+  background-color: #19CBE4;
+}
+.home-e6 .row .row .col:first-child a{
+  color: #1D252B;
+}
+.home-e6 .row .row .col p{
+  margin-bottom: 10px;
+}
+
+.home-e6 .row .row .col:last-child a{
+  color: #19CBE4;
+}
+.home-e6 .row .row .col:last-child:hover span,
+.home-e6 .row .row .col:last-child:hover a{
+  color: #1D252B;
+}
+
+
+.home-e6 .row .row .col:last-child > div:hover{
+  background-color: #19CBE4;
+}
+
+.home-e6 .row .row .col:first-child span{
+  color: #1D252B;
+}
+.home-e6 .row:first-child{
+  margin-bottom: 50px;
+}
+.home-e6 > .container> .row:last-child > .col > div{
+  padding: 35px 30px;
+}
+.home-e6 > .container> .row:last-child > .col > div:hover{
+  background-color: #19CBE4;
+}
+.home-e6 > .container> .row:last-child > .col > div:hover span,
+.home-e6 > .container> .row:last-child > .col > div:hover a{
+  color: #1D252B;
+}
+
+.home-e6 > .container> .row:last-child > .col > div a{
+  color: #19CBE4;
+}
+.home-e6 > .container> .row:last-child > .col > div p{
+  margin-bottom: 20px;
+}
+
+.home-e7{
+  padding-bottom: 100px;
+}
+.home-e7 > div{
+
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 843px;
+  transition: 0.3s ease;
+}
+.home-e7 .row{
+  --bs-gutter-x:0px;
+  height: 100%;
+}
+.home-e7 .col-3{
+  border-right: 1px solid rgba(255,255,255,.3) ;
+  padding: 0px;
+  height: 100%;
+  position: relative;
+}
+.home-e7 .col-3 h3{
+  padding: 62px ;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  top:0px;
+  font-weight: 600;
+  font-size: 21px;
+}
+.home-e7 .col-3 .bg-w{
+  background-color: #fff;
+  height: 0px;
+  position: relative;
+  transition: height 0.5s;
+}
+.home-e7 .col-3:hover .bg-w{
+  height: 164px;
+}
+.home-e7 .col-3:hover h3{
+  color: #1D252B;
+}
+
+.home-e8{
+  padding-bottom: 100px;
+  color: #1D252B;
+}
+.home-e8 > div > p{
+  padding: 0px 320px;
+  margin-bottom: 50px;
+}
+.home-e8 .line{
+  position: relative;
+  left: 48%;
+  height: 3px;
+  width: 50px;
+}
+.home-e8 .col-3{
+  padding: 0px;
+}
+
+.home-e8 .col-3:nth-child(2n) > div{
+  display: grid;
+  align-content: center;
+  align-items: center;
+  height: 100%;
+  margin: 0px 20px 0px 30px;
+  padding: 10px;
+  text-align: left;
+}
+.home-e8 .col-3:nth-child(2n) h4{
+  color: #7A7A7A;
+  margin-bottom: 40px;
+}
+.home-e8 .col-3:nth-child(2n) span{
+  color: #1D252B;
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.home-e9{
+  padding-bottom: 100px;
+}
+.home-e9 > div{
+  background-image: url(../../assets/images/family-watchig-fishes-at-a-aquarium-e1628654789954.jpg);
+  background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 634px;
+}
+.home-e9  .carousel{
+ position: absolute;
+ right: 60px;
+ bottom: 40px;
+ width: 530px;
+}
+.home-e9  .carousel-item{
+  background-color: #fff;
+  text-align: left;
+  padding: 40px 60px 40px 60px;
+  border-radius: 0px 0px 0px 0px;
+ }
+ .home-e9  p{
+  color: #7F7F7F;
+  margin-bottom: 10px;
+ }
+ .home-e9  i{
+  color: gold;
+
+ }
+ .home-e9 .rating >ul{
+  padding: 0;
+  display: flex;
+  margin-bottom: 10px;
+ }
+ .home-e9 .user{
+  display: flex;
+  align-self: start;
+  align-content: center;
+ }
+ .home-e9 .user > img{
+  border-radius: 50%;
+  width: 60px;
+  height: auto;
+  margin-right: 20px;
+ }
+ .home-e9 .user  strong{
+  color: #1D252B;
+ }
+ .home-e9 .user > div{
+  display: grid;
+  align-items: center;
+  align-content: center;
+ }
+ .home-e9 .user > div p{
+  color: #19CBE4;
+  margin-bottom: 0px;
+ }
+.home-10{
+  color: #1D252B;
+  text-align: left;
+  padding-bottom: 100px;
+}
+.home-10 .row:nth-child(1) {
+  padding-bottom: 40px;
+ }
+
+.home-10 .row:nth-child(1) .col-6:nth-child(2){
+ display: flex;
+ align-items: flex-end;
+}
+
+.home-10 .row:nth-child(2) .col-4:nth-child(1) > div{
+
+  background-image: url("../../assets/images/colorful-fish-from-the-spieces-symphysodon-discus-in-aquarium--e1628655050154.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+  padding: 30px;
+  position: relative;
+}
+.home-10 .row:nth-child(2) .col-4 {
+  padding: 0px 20px;
+}
+.home-10 .row:nth-child(2) .col-4 > div{
+  height: 520px;
+}
+.home-10 .row:nth-child(2) .col-4:nth-child(1) .category{
+  margin-bottom: 310px;
+}
+
+.home-10 .row:nth-child(2) .col-4:nth-child(2) > div{
+
+  background-image: url("../../assets/images/carp-fish-in-the-aquarium-e1628655039273.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+  padding: 30px;
+  position: relative;
+}
+.home-10 .row:nth-child(2) .col-4:nth-child(2) .category{
+  margin-bottom: 310px;
+}
+.home-10 .row:nth-child(2) .overley{
+  background-color: #082441;
+    opacity: 0.5;
+    transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.home-10 .row:nth-child(2) .category-text{
+  position: absolute;
+  bottom: 30px;
+  right: 30px;
+  left: 30px;
+}
+.home-10 .row:nth-child(2) .category{
+  position: absolute;
+}
+.category-text h3{
+  font-weight: 600;
+}
+.category a{
+  font-size: 14px;
+  padding: 10px 15px;
+  background-color: #19CBE4;
+  color: #1D252B;
+}
+.home-10 .row:nth-child(2) .col-4:nth-child(3) >div{
+  padding: 30px;
+  box-shadow: 0px 0px 10px 0px rgb(0 0 0 / 10%);
+    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+    margin: 0px 0px 0px 0px;
+    --e-column-margin-right: 0px;
+    --e-column-margin-left: 0px;
+    padding: 40px 50px 40px 50px;
+}
+.home-10  h1{
+  font-weight: 600;
+}
+.home-10 .line{
+  height: 2px;
+}
+.new{
+  display: flex;
+  padding-bottom: 20px;
+}
+.new img{
+  height: 75px;
+  min-width: 100px;
+}
+.new div:nth-child(1){
+  margin-right: 20px;
+}
+.new> div:nth-child(2){
+ display: grid;
+ align-items: center;
+ align-content: center;
+}
+.new> div:nth-child(2) > div{
+  color: #7A7A7A;
+ }
+.new a{
+  font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 0px;
+    color: #1D252B;
+}
+.new i{
+  margin-right: 5px;
+}
+.new span{
+  font-size: 14px;
+}

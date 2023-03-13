@@ -1,0 +1,647 @@
+.about-e2{
+  padding: 100px 0px;
+  color: #1D252B;
+  text-align: left;
+}
+.about-e2 .col-8 > div{
+ padding: 10px;
+}
+.about-e2 .col-8 .line{
+  height: 3px;
+  width: 43px;
+  color: #0bd5f1;
+ }
+.about-e2 .col-8 > div >h1{
+  font-size: 48px;
+  font-weight: 600;
+  margin-top: 24px;
+}
+
+.about-e2 .col-8 > div > p{
+  color: #7F7F7F;
+  margin: 30px 0px;
+}
+.about-e2 .col-8 .col-6 > p{
+  padding-bottom: 10px;
+}
+.about-e2 .col-8 .col-6 > div{
+  display: flex;
+  padding-bottom: 3px;
+}
+.about-e2 .col-8 .col-6 > div i{
+  margin-right: 10px;
+  color: #19CBE4;
+}
+.about-e2 .col-8 .col-6 > div a{
+  padding: 15px 30px;
+  color: #1D252B;
+  background-color: #19CBE4;
+  font-weight: 600;
+}
+.about-e2 .col-8 .col-6 > div a:hover{
+  color: #19CBE4;
+  background-color: #1D252B;
+}
+.about-e2 .col-4 >div{
+  position: relative;
+}
+.about-e2 .col-4 > div > div{
+  color: #FFFFFF;
+  padding: 30px;
+  background-color: #1D252B;
+  display: grid;
+  position: absolute;
+  bottom: 0;
+}
+.about-e2 .col-4 > div > div h5{
+  margin-bottom: 32px ;
+  font-style: italic;
+}
+.about-e2 .col-4 > div > div span{
+  font-weight: 600;
+  font-size: larger;
+}
+.about-e2 .col-4 > div > div a{
+  color: #19CBE4;
+}
+.about-e3{
+  color: #1D252B;
+  text-align: left;
+}
+.about-e3 .col-6 > div{
+  display: flex;
+  padding: 20px;
+}
+.about-e3 .col-8 .col-6{
+  padding: 0px;
+}
+.about-e3 .col-6 h3{
+  font-size: 22px;
+  font-weight: 600 ;
+  color: #1D252B;
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+.about-e3 .col-6 p{
+  margin-bottom: 10px;
+}
+.about-e3 .col-6 a{
+  font-size: 18px;
+  color: #0bd5f1;
+  font-weight: 600;
+}
+
+
+.about-e3 .col-6:nth-child(1){
+  background-color: #19CBE4;
+}
+.about-e3 .col-6:nth-child(4){
+  background-color: #1D252B;
+  color: #FFFFFF;
+}
+.about-e3 .col-6:nth-child(1):hover {
+  background-color: #1D252B;
+  color: #FFFFFF;
+}
+.about-e3 .col-8 .col-6:nth-child(4):hover {
+  background-color: #19CBE4;
+  color: #1D252B;
+}
+.about-e3 .col-6:nth-child(4):hover {
+  background-color: #1D252B;
+  color: #FFFFFF;
+}
+.about-e3 .col-6:nth-child(1):hover a{
+  color: #19CBE4;
+}
+.about-e3 .col-6:nth-child(1):hover i{
+  color: #19CBE4;
+}
+.about-e3 .col-6:nth-child(1):hover h3{
+  color: #1D252B;
+}
+.about-e3 .col-6:nth-child(4) a{
+  color: #19CBE4;
+}
+.about-e3 .col-6:nth-child(4) i{
+  color: #19CBE4;
+}
+.about-e3 .col-6:nth-child(4) h3{
+  color: #FFFFFF;
+}
+.about-e3 .col-6:nth-child(4):hover a{
+  color: #1D252B;
+}
+.about-e3 .col-6:nth-child(4):hover i{
+  color: #1D252B;
+}
+.about-e3 .col-6:nth-child(4):hover h3{
+  color: #1D252B;
+}
+
+
+.about-e3 .col-6:nth-child(1) a{
+  color: #1D252B;
+}
+.about-e3 .col-6 >div:nth-child(4){
+  background-color: #1D252B;
+}
+.about-e3 .col-6 i{
+  font-size: 42px;
+  padding-right: 20px;
+}
+.about-e3 .col-4 > div{
+  margin-left: 20px;
+}
+.about-e3 .col-4 h1{
+  font-size: 42px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+.about-e3 {
+  padding-bottom: 100px;
+}
+
+.about-e4{
+  background-image: url(../../assets/images/aquarium-tank-e1628655236207.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.about-e4 > .container > div{
+  position: relative;
+  padding : 100px 0px 200px 0px;
+}
+.about-e4 .line-1{
+  position: absolute;
+  width: 32px;
+  left: 48%;
+  height: 2px;
+  background-color: #19CBE4;
+}
+.about-e4 .container > div > h5{
+  margin-bottom: 15px;
+}
+.about-e4 .container > div > h1{
+  margin-top: 45px;
+  margin-bottom: 40px;
+  font-size: 42px;
+  font-weight: 600;
+}
+.about-e4 .col-6 > div {
+  display: flex;
+  position: relative;
+}
+.about-e4 .col-6 .line{
+  height: 4px;
+}
+
+
+.about-e4 .col-6 > div > span,
+.about-e4 .col-6 > div > h5{
+  font-weight: 600;
+}
+.about-e4 .col-6 > div > span{
+  position: absolute;
+  right: 0;
+}
+.about-e4 .row > .col-6:nth-child(1) .line{
+  width: 99%;
+}
+.about-e4 .row > .col-6:nth-child(2) .line{
+  width: 85%;
+}
+.about-e4 .row > .col-6:nth-child(3) .line{
+  width: 92%;
+}
+.about-e4 .row > .col-6:nth-child(4) .line{
+  width: 95%;
+}
+.about-e4 .row > .col-6:nth-child(5) .line{
+  width: 89%;
+}
+.about-e4 .row > .col-6:nth-child(6) .line{
+  width: 80%;
+}
+.about-e5{
+  text-align: left;
+  padding-bottom: 100px;
+  margin-top: -100px;
+}
+.about-e5 .row > .col-4> div {
+  padding: 40px;
+  box-shadow: 0px 0px 10px 0px rgb(0 0 0 / 10%);
+  transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+}
+.about-e5 .row > .col-4 > div p{
+  margin: 10px 0px;
+}
+.about-e5 .row > .col-4 > div a{
+  font-weight: 600;
+}
+
+.about-e5 .row > .col-4:nth-child(1) > div {
+  background-color: #0bd5f1;
+  color: #1D252B;
+}
+.about-e5 .row > .col-4:nth-child(2) > div {
+  background-color: #FFFFFF;
+  color: #1D252B;
+}
+.about-e5 .row > .col-4:nth-child(2) > div p{
+  margin: 10px 0px;
+}
+.about-e5 .row > .col-4:nth-child(2) > div span,
+.about-e5 .row > .col-4:nth-child(2) > div a{
+  color: #19CBE4;
+}
+.about-e5 .row > .col-4:nth-child(3) > div {
+  background-color: #1D252B;
+  color: #FFFFFF;
+}
+.about-e5 .row > .col-4:nth-child(3) > div p{
+  margin: 10px 0px;
+  color: #7F7F7F;
+}
+.about-e5 .row > .col-4:nth-child(3) > div span,
+.about-e5 .row > .col-4:nth-child(3) > div a{
+  color: #19CBE4;
+}
+
+.section-e6{padding-bottom: 100px;
+}
+
+.family-one{
+  margin: 30px 0px 0px ;
+  padding: 45px 40px 40px;
+}
+.family-one h4{
+  color: black;
+  font-weight: 900
+}
+.visit-one h1{
+  color: black;
+  padding-top: 7px;
+  font-weight: 800;
+}
+.visit-one p{
+  color: #19cbe4;
+}
+.purchase-now-one >button{
+  padding: 18px 84px;
+  background: #19cbe4;
+  border: none;
+  margin-top: -4px;
+}
+
+
+.Chevron-double-right-one{
+  padding-top: 23px;
+}
+.Chevron-double-right-one ul li {
+  padding-top: 13px;
+  color: #7f7f7f;
+
+}
+.Chevron-double-right-one i{
+  color: #19cbe4;
+  margin-left: -32px;
+}
+.p-one{
+  color: #1D252B;
+  margin-left: 11px;
+  padding-top: 10px;
+}
+
+.purchase-now-one >button:hover{
+  background: #1d252b;
+  color: #19cbe4;
+}
+
+.purchase-now-one >button{
+  font-weight: 800;
+}
+.section-e7 .col-5{
+  position: relative;
+  background-image: url("../../assets/images/coral-reef-colony-in-red-sea-in-egypt-e1628655283610.jpg");
+}
+.section-e7 .row{
+  --bs-gutter-x:0px;
+}
+.main-event{
+  position: absolute;
+  z-index: 2;
+  width: 100%;
+  height: 100%;
+  padding: 91.15px;
+  text-align: left;
+}
+.over-lay-one{
+  background-color: #082441;
+  opacity: 0.7;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  position: absolute;
+  z-index: 1;
+}
+.main-event h5{
+  color: #FFFFFF;
+}
+.main-event h1{
+  color: #FFFFFF;
+  font-weight: 800;
+  padding-top: 23px;
+}
+.main-event h4{
+  color: #FFFFFF;
+  padding-top: 10px;
+}
+.main-event p{
+  color: #19cbe4;
+}
+.Floral-Coral h6{
+  color: #FFFFFF;
+  padding-top: 10px;
+}
+.book-now >button{
+  margin-top: 70px;
+  padding: 19px 45px;
+  font-weight: 800;
+  background: #19cbe4;
+  border:none;
+}
+.book-now >button:hover{
+  background: #1d252b;
+  color: #19cbe4;
+}
+.Aquavist-Events{
+  padding: 91.15px;
+  background-color: #1d252b;
+  width: 100%;
+  text-align: initial;
+
+}
+.Aquavist-Events h5{
+  color: #FFFFFF;
+}
+.Aquavist-Events h1{
+  color: #FFFFFF;
+  font-weight: 800;
+  padding-top: 23px;
+  margin-bottom: 40px;
+}
+
+.images-one{
+  background-image: url("../../assets/images/aquarium-tank-1-e1628655247905.jpg");
+  width: 150px;
+  height: 243.06px;
+}
+.Client-Inquries{
+  margin: 0px 50px 0px 0px ;
+  padding: 10px;
+}
+.Client-Inquries h6{
+  font-weight: 600;
+  color: #1d252b;
+}
+.Client-Inquries h1{
+  font-weight: 800;
+  padding-top: 19px;
+  padding-bottom: 19px;
+  color: #1d252b;
+}
+.Client-Inquries p{
+  padding-bottom: 13px;
+  font-weight: 100;
+  color: #1d252b;
+}
+.opening .title{
+  padding-left: 23px;
+  color: #1D252B;
+  color: #1D252B;
+  background-color: #FFFFFF;
+  border-radius: 0px 0px 0px 0px;
+  box-shadow: 0px 0px 10px 0px rgb(0 0 0 / 10%);
+  padding: 18px 18px 18px 30px;
+  font-weight: 800;
+}
+.opening ul li{
+  margin-top: 20px;
+  margin-right: 10px;
+}
+.opening i{
+  color: #1D252B;
+  font-weight: 800;
+
+}
+.images-true{
+  background-image: url("../../assets/images/aquarium-2-e1628655297830.jpg");
+  width: 100%;
+  height: 450px;
+}
+.title a{
+  margin-left: 20px;
+}
+.opening ul{
+  padding: 0px;
+}
+.Pacific-Ocean{
+  padding: 0px 0px 0px 50px ;
+
+}
+.Pacific-Ocean h5{
+  font-weight: 800;
+  margin-top: 15px;
+
+}
+.Pacific-Ocean h6{
+  color: #19cbe4;
+}
+
+.sold-out >a{
+  padding: 20px 45px;
+  background: #C4C4C4;
+  color: #747474;
+  border: none;
+  display: flex;
+  align-items: center;
+  font-weight: 600;
+}
+
+.card-e5{
+  background-color: #283d3e;
+  padding-bottom: 21px;
+
+}
+.card-e6{
+  margin-top: 25px;
+}
+
+
+.card-e7:hover{
+  background-color: #283d3e;
+}
+.card-e6:hover{
+  background-color: #283d3e;
+}
+.sold-out-one >a{
+  background: #19cbe4;
+  font-weight: 600;
+  border: none;
+  margin-top: 26px;
+  padding: 20px 45px;
+  color: black;
+}
+.sold-out-one >a:hover{
+  background: #1D252B;
+  color: #19CBE4;
+}
+.card-e8{
+  margin-top: 25px;
+}
+.Aquavist-Events .col-4{
+  padding: 0px;
+}
+.Aquavist-Events .col-8{
+  padding: 0px;
+}
+.Aquavist-Events > .row .row{
+  height: 100%;
+  align-items: center;
+}
+.dung{
+  display: flex;
+  position: relative;
+}
+.dung p{
+  right: 0px;
+  position: absolute;
+  font-weight: 600;
+}
+.dat-one{
+  height: 1.5px;
+  width: 99px;
+  color: #19cbe4;
+}
+.Client-Inquries{
+  text-align: initial;
+}
+.section-e8{
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.Client-Inquries >button:focus{
+  background-color: black;
+  color: #19CBE4;
+}
+button{
+  border: none;
+  width: 100%;
+  box-shadow: 0px 0px 10px 0px rgb(0 0 0 / 10%);
+  background-color: white;
+}
+.menu-toggler span{
+  padding-left: 10px;
+
+}
+.menu-toggler{
+  cursor: pointer;
+  text-align: left;
+  font-size: 16px;
+  font-weight: 600;
+  color: black;
+  box-shadow: 0px 0px 10px 0px rgb(0 0 0 / 10%);
+  padding: 10px 30px;
+  margin-bottom: 10px;
+}
+.menu{
+  text-align: left;
+  padding: 18px 50px 10px 36px;
+}
+
+.family-one h1{
+  color:#1d252b;
+}
+.family{
+  background: #1d252b;
+  margin: 0px 0px 30px;
+  padding: 45px 40px 30px;
+  text-align: initial;
+}
+.family h4{
+  color: #FFFFFF;
+  font-weight: 900
+}
+.family-one{
+  border-style: solid;
+  border-width: 0px 0px 0px 0px;
+  border-color: #EAEAEA;
+  box-shadow: 0px 0px 15px 0px rgb(90 90 90 / 10%);
+  text-align: initial;
+}
+
+.Pricing-Plan{
+  margin: 0px 30px 0px 0px;
+  padding: 10px;
+  padding-top: 111px;
+  text-align: initial;
+  color: #1d252b;
+}
+.Pricing-Plan h6{
+  font-weight: 800;
+}
+.Pricing-Plan h1{
+  padding-top: 28px;
+  font-weight: 800;
+  padding-bottom: 15px;
+}
+.Pricing-Plan .Pricing{
+  font-weight: 100;
+  padding-bottom: 26px;
+}
+.Chevron-double-right ul {
+  margin-top: 20px;
+
+  padding: 0px;
+}
+.Chevron-double-right ul li{
+  margin-bottom: 5px;
+}
+.visit{
+  display: flex;
+}
+.visit{
+  display: flex;
+  align-items: center;
+}
+.all >button{
+  padding: 20px 45px;
+  border: none;
+  background: #19cbe4;
+  font-weight: 800;
+}
+.all >button:hover{
+  background: black;
+  color: #19cbe4;
+}
+.purchase-now{
+  margin: 20px 0px;
+}
+.purchase-now >button{
+  padding: 18px 84px;
+  background: #19cbe4;
+  border: none;
+  margin-top: -4px;
+  font-weight: 800;
+}
+.family-one p{
+  color: #1D252B;
+}
+.lein{
+  height: 1px;
+  width: 100%;
+  background: #4e5459;
+  margin-top: 28px;
+}

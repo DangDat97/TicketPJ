@@ -1,0 +1,37 @@
+<section class="section blog">
+  <div class="overlay"></div>
+  <div class="container">
+    <div class="block">
+      <h1> Blog </h1>
+      <div class="line"></div>
+      <a> Home<i class="bi bi-chevron-double-right"></i></a><a> Blog</a>
+    </div>
+  </div>
+</section>
+<section class="section blog-e2">
+  <div class=" container">
+    <p> Our news</p>
+    <div class="line"></div>
+    <h1>News & Articles</h1>
+    <p>Where to update information as well as articles about aquariums and animals.</p>
+  </div>
+</section>
+<section class="section">
+  <div class="container">
+    <div class="row">
+      <div *ngFor="let b of blogs" class="col-4 my-3  ">
+        <div class="img7">
+          <img [src]="b.img_bg" alt="">
+          <div class="over-lay"></div>
+          <div class="title">
+            <h4>{{b.title}}</h4>
+            <p>{{b.description.slice( 1, 100)}}</p>
+            <p>{{b.time_post| date}}</p>
+            <a routerLink="/blog-single/{{b.id}}">Read More</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+

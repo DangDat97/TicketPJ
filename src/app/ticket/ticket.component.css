@@ -1,0 +1,168 @@
+
+.contact{
+  background-image: url("https://sdzwildlifeexplorers.org/sites/default/files/2022-10/axolotl-hero_0.jpg");
+  height: 479px;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+.home{
+  padding-top: 251px;
+  text-align: left;
+}
+.contact h1{
+  color: #FFFFFF;
+  font-weight: 800;
+  padding-bottom: 15px;
+
+}
+.contact h6{
+  color: #FFFFFF;
+  padding-top: 25px;
+  font-weight: 500;
+}
+i{
+  color: #19cbe4;
+  padding-right: 12px;
+}
+.ngang{
+  height: 2px;
+  width: 37px;
+  background: #19cbe4;
+}
+.section-e1{
+  margin-bottom: 100px;
+}
+.Get-In-Touch h5{
+  font-weight: 600;
+  color: #1d252b;
+}
+.Get-In-Touch h1{
+  padding-top: 25px;
+  font-weight: 900;
+  padding-bottom: 20px;
+  color: #1d252b;
+}
+.Get-In-Touch p{
+  font-weight: 400;
+  color: #1d252b;
+}
+.Get-In-Touch {
+  padding-bottom: 30px;
+  text-align: left;
+}
+.icon i{
+  font-size: 40px;
+}
+.location p{
+  margin-bottom: 0px;
+  font-weight: 100;
+
+}
+.location h5{
+  margin-bottom: 0px;
+  font-weight: 900;
+  color: #1d252b;
+}
+
+.card-e3{
+  margin-top: 30px;
+}
+
+.ngang-one{
+  height: 1px;
+  width: 581px;
+  background: #082441;
+  margin-bottom: 39px;
+  margin-top: 12px;
+}
+.icon-one i{
+  margin-left: 15px;
+}
+.icon-one .bi-facebook{
+  padding: 13px 15px ;
+  background-color: #19cbe4;
+  color: #1d252b;
+}
+.icon-one .bi-facebook:hover{
+  background-color: #1d252b;
+  color: #19cbe4;
+}
+.icon-one .bi-instagram{
+  padding: 13px 15px ;
+  background: #1d252b;
+  color: #19cbe4;
+}
+.icon-one .bi-instagram:hover{
+  background: #19cbe4;
+  color: #1d252b;
+}
+.icon-one .bi-telephone-inbound{
+  padding: 13px 15px ;
+  background: #1d252b;
+  color: #19cbe4;
+}
+.icon-one .bi-telephone-inbound:hover{
+  background: #19cbe4;
+  color: #1d252b;
+}
+.icon-one .bi-youtube{
+  padding: 13px 15px ;
+  background: #1d252b;
+  color: #19cbe4;
+}
+.icon-one .bi-youtube:hover{
+  background: #19cbe4;
+  color: #1d252b;
+}
+
+.Social-Media h5{
+  font-weight: 800;
+  text-align: left;
+  color: #1d252b;
+}
+
+.form-control {
+  padding: 0.5rem 0.5rem;
+  line-height: 2.5;
+  border-radius: 0;
+}
+
+.leave-a-message {
+  text-align: left;
+  padding: 3rem 3rem;
+  box-shadow: 0px 0px 10px 0px rgb(0 0 0 / 10%);
+  color: #1d252b;
+  font-weight: 800;
+}
+.leave-a-message h1{
+  font-weight: 600;
+}
+.map{
+  text-align: center;
+}
+.section-e4{
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.location{
+  text-align: initial;
+
+}
+.errors p{
+  color: red;
+  font-size: 10px ;
+}
+.num-amount input{
+  border:none;
+  border-bottom: 2px solid black;
+  text-align: center;
+}
+.num-amount input:focus-visible{
+  border-bottom: 2px solid black;
+  outline: none;
+}
+.num-amount i{
+  padding: 0px;
+}

@@ -1,0 +1,400 @@
+/*slider*/
+.slider{
+  background-image: url(../../assets/images/FAQ.jpg);
+  background-position: 0px 65%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 0px;
+  transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding:250px 200px;
+  position: relative;
+  color: white;
+  font-weight: 600;
+}
+.over-lay{
+  background-color: #082441;
+  opacity: 0.5;
+  transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  position: absolute;
+}
+.line{
+  width: 50px;
+  height: 2px;
+  background-color: #19CBE4;
+}
+.title{
+  text-align: left;
+  padding: 0;
+  margin-left: -75px;
+}
+.title h1{
+  font-weight: 600;
+}
+.nav li{
+  padding-right:5px ;
+  font-weight: 400;
+}
+.nav i{
+  color: #19CBE4;
+}
+.content{
+  text-align: center;
+  padding: 0;
+}
+.content li{
+  padding-top: 10px;
+}
+.content .line{
+  position: relative;
+  left: 47%;
+}
+.content li:first-child{
+  font-weight: 600;
+  color: black;
+  font-size: 15px;
+}
+.content h1{
+  font-weight: 600;
+  color: black;
+}
+.content p:last-child{
+
+}
+.question{
+  text-align: left;
+}
+button{
+  border: none;
+  color: black;
+  background-color: white;
+  font-size: 20px;
+  font-weight: 600;
+  width: 100%;
+  height: 100%;
+  text-align: left;
+}
+button:hover{
+  background-color: white;
+  color: black;
+  outline: white;
+}
+
+.dropdown-toggle::after{
+  display: none;
+}
+button:focus{
+  background-color: black;
+  color: #19CBE4;
+}
+
+.menu-toggler span{
+  margin-left: 5px;
+}
+.menu-toggler i{
+  position: absolute;
+  left: 1%;
+}
+.menu-toggler{
+  position: relative;
+  cursor: pointer;
+  text-align: left;
+  font-size: 20px;
+  font-weight: 600;
+  color: black;
+  box-shadow: 0px 0px 10px 0px rgb(0 0 0 / 10%);
+  padding: 10px 23px;
+  margin-bottom: 10px;
+
+}
+.menu{
+  text-align: left;
+  padding: 18px 50px 10px 36px;
+}
+
+.services{
+  background-color: #1d252b;
+  padding: 0;
+  text-align: left;
+}
+.services-full{
+  padding: 0 60px;
+  height: auto;
+}
+.services-full ul{
+  padding: 0;
+}
+.services-img{
+  padding: 0;
+  text-align: left;
+  --spacer-size:750px;
+  /*background-image: url("../../assets/images/different-tropical-fish-on-a-coral-reef-in-the-red-sea-e1628654765211.jpg");*/
+}
+.services-img >img{
+  --spacer-size:750px;
+}
+.bg-img-1{
+  height:650px;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-image: url("../../assets/images/different-tropical-fish-on-a-coral-reef-in-the-red-sea-e1628654765211.jpg");
+}
+.services>div>ul>li{
+  padding-top: 15px;
+
+}
+.services>div>ul>li:first-child{
+  padding-top: 30px;
+  padding-bottom: 0px;
+}
+.services>div>ul>li>h5{
+  color: white;
+  font-weight: 600;
+}
+.services>div>ul>li>h1{
+  color: white;
+  font-weight: 600;
+}
+.content-services{
+  text-align: left;
+}
+.content p{
+  text-transform: uppercase;
+}
+.content-services i{
+  color: #19CBE4;
+  text-align: center;
+  font-size: 100px;
+}
+.content-services li{
+  padding-top: 15px;
+}
+.content-services h1{
+  font-size: 20px;
+  font-weight: 600;
+  color: white;
+}
+.content-services>ul>li>a{
+  border: none;
+  color: #19CBE4;
+  font-weight: 600;
+  position: relative;
+  top: 0px;
+  transition: top 0.3s;
+}
+.content-services>ul>li>a:hover{
+  position: relative;
+  top: 10px;
+}
+.col-4{
+  position: relative;
+}
+.overlay{
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color:#00000000 ;
+  background-image: linear-gradient(180deg, #0A043C00 20%, #1D252B 100%);
+  padding:30px;
+  text-align: left;
+  margin-bottom: 16px;
+}
+.overlay >div{
+  position: absolute;
+  z-index: 20;
+}
+.overlay >div:last-child{
+  bottom: 10%;
+}
+.overlay >div >a{
+  color: black;
+  background-color: #19CBE4;
+  padding:10px ;
+}
+.overlay >div >h1 >a:focus{
+  color: white;
+}
+.overlay >div >h1{
+  font-size: 25px;
+  color: white;
+  font-weight: 600;
+}
+.overlay >div >p{
+  color: white;
+}
+.overlay-2{
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color:#00000000 ;
+  background-image: linear-gradient(180deg, #0A043C00 20%, #1D252B 100%);
+  padding:30px;
+  text-align: left;
+  margin:16px  12px;
+}
+.overlay-2 >div{
+  position: absolute;
+  z-index: 20;
+}
+.overlay-2 >div:last-child{
+  bottom: 10%;
+}
+.design{
+  top: 15px;
+}
+.overlay-2 >div >a{
+  color: black;
+  background-color: #19CBE4;
+  padding:10px ;
+  top: 15px;
+}
+.overlay-2 >div >h1 >a:focus{
+  color: white;
+}
+.overlay-2 >div >h1{
+  font-size: 25px;
+  color: white;
+  font-weight: 600;
+}
+.overlay-2 >div >p{
+  color: white;
+}
+.table-new{
+  text-align: left;
+  padding: 40px 50px;
+  background-color: #ffffff;
+  box-shadow: 0px 0px 10px 0px rgb(0 0 0 / 10%);
+  transition: background 0.3s, border 0.3s, border-radius 0.3s,box-shadow 0.3s;
+}
+
+.table-new h5{
+  color: black;
+  font-weight: 600;
+  font-size: 30px;
+}
+.recent-news{
+  padding: 0;
+}
+.recent-news li{
+  padding-top: 20px;
+}
+.recent-news ul{
+  padding: 0;
+}
+.news a{
+  font-size: 14px;
+  color: black;
+  font-weight: 600;
+}
+.news >a:hover{
+  color: #19CBE4;
+}
+.news i{
+  font-size: 14px;
+  padding-right:5px ;
+  font-weight: 300;
+}
+.new-title{
+  padding: 0;
+  text-align: left;
+}
+.new-title ul{
+  padding: 0;
+}
+.new-title h5{
+  color: black;
+  font-weight: 400;
+  font-size: 18px;
+}
+.new-title h1{
+  color: black;
+  font-weight: 600;
+}
+.new-title li{
+  padding-top: 15px;
+}
+.new-title li:nth-child(2){
+  padding-top: 4px;
+}
+.new-title p{
+  text-align: left;
+  padding-top: 40px;
+}
+.bg-new:first-child{
+  padding: 0;
+}
+.bg-new img{
+  height: 500px;
+  width: 100%;
+
+}
+.mg-top{
+  margin-top: 100px;
+}
+
+svg{
+  width: 100px;
+  height: 100px;
+  transform: rotate(-90deg);
+  overflow: initial;
+}
+
+circle{
+  stroke-width:5px;
+  fill:none;
+  display: grid;
+  place-items: center;
+}
+#above-top{
+  stroke: #19CBE4;
+  stroke-dasharray:440 ;
+  stroke-dashoffset: 440;
+  animation: spiner1 3s steps(332) forwards;
+}
+.above-under{
+  stroke: #19CBE4;
+  stroke-dasharray:440 ;
+  stroke-dashoffset: 440;
+  animation: spiner 3s steps(60) forwards;
+}
+@keyframes spiner {
+  100%{
+    stroke-dashoffset: 60;
+  }
+
+}
+@keyframes spiner1 {
+  100%{
+    stroke-dashoffset: 8;
+  }
+
+}
+.circle_box{
+  text-align: left ;
+}
+.circle_box div{
+  position: relative;
+}
+.circle_box span{
+  position: absolute;
+  left: 29%;
+  top: 35%;
+  transform: translate(-50%,-50%);
+  color: #fff;
+  font-size: 30px;
+  font-weight: 600;
+
+}
+
+

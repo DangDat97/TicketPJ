@@ -1,0 +1,198 @@
+.block h1{
+  font-size: 70px;
+}
+.block a {
+  font-size: 20px;
+}
+.overlay{
+  background-color: #082441;
+  opacity: 0.5;
+  transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  position: absolute;
+}
+.blog{
+  color: #fafafa;
+  height: 500px;
+  background-size: cover ;
+  background-repeat: no-repeat;
+  background-image: url("../../assets/images/under-water-view-on-colourful-sea-fishes-inhabiting-the-mediterranean-sea-in-malta-aquarium-centre-e1628655601178.jpg");
+}
+.block i{
+  color: #19CBE4;
+}
+.block{
+  margin-top: 200px;
+  text-align: left;
+}
+.blog-e2{
+  text-align: center;
+  padding-top: 100px ;
+  padding-bottom: 10px;
+}
+.blog-e2 p:first-child {
+  font-weight: 600;
+  color: black;
+}
+.blog-e2 h1{
+  font-weight: 600;
+  color: black ;
+}
+.blog-e2 .line{
+
+  margin: 10px  0 ;
+}
+.title{
+  position: absolute;
+  bottom: 10%;
+  text-align: left;
+  padding-left: 20px;
+}
+.title p{
+  margin: 10px 0;
+  color: white;
+}
+.title p:first-child{
+  font-weight: 600;
+  color: #19CBE4;
+}
+.title a{
+  color: #19CBE4;
+  font-weight: 600;
+  position: relative;
+  top: 0;
+  transition: top 0.3s;
+}
+.title h4{
+  color: white;
+  font-weight: 600;
+}
+.img7{
+  position: relative;
+  height:500px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover ;
+
+}
+.img7 h3{
+  text-transform: uppercase;
+}
+.img7 img{
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  left: 0;
+  top: 0;
+}
+.content span{
+  padding: 6px 10px;
+  background-color:#19CBE4  ;
+}
+.content {
+  padding:30px;
+  box-sizing: border-box;
+  margin-top: 10px;
+  color:white;
+  text-align: left;
+}
+.content h3{
+  padding-top: 310px;
+}
+.img2{
+  background-size: cover ;
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 100%;
+  background-image: url("../../assets/images/carp-fish-in-the-aquarium-e1628655039273.jpg");
+}
+.content span{
+  padding: 6px 10px;
+  background-color:#19CBE4  ;
+}
+.content h3{
+  padding-top: 310px;
+  font-weight: 600;
+  font-size: 20px;
+}
+.img3{
+  background-size: cover ;
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 100%;
+  background-image: url("../../assets/images/salt-water-aquarium-e1628655024510.jpg");
+}
+.img4{
+  height: 100%;
+  background-size: cover ;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-image: url("../../assets/images/colorful-sea-fish-in-aquarium-e1628655011829.jpg");
+}
+.img5{
+  background-size: cover ;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-image: url("../../assets/images/aquarium-1-e1628654993767.jpg");
+  height: 100%;
+}
+.img6{
+  background-size: cover ;
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 100%;
+  background-image: url("../../assets/images/exotic-fish-in-a-collector-s-aquarium-e1628654984548.jpg");
+}
+.blog-e3{
+  padding: 20px;
+}
+.blog-e3 span{
+  float: left;
+}
+
+.blog-e4 col-4{
+  padding: 0px 15px;
+}
+.blog-e4 span{
+  float: left;
+}
+a:focus{
+  color: white;
+}
+.line{
+  background-color: #19CBE4;
+  width: 80px;
+  height: 1px;
+  margin-bottom:13px;
+}
+.blog-e2 .line{
+  position: relative;
+  left: 47%;
+  right: auto;
+}
+.col-4{
+  position: relative;
+}
+.over-lay{
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color:#00000000 ;
+  background-image: linear-gradient(180deg, #0A043C00 20%, #1D252B 100%);
+  padding:30px;
+  text-align: left;
+  height: 100%;
+  width: 100%;
+}
+.content-under{
+  position: absolute;
+
+}
+.content-under-1{
+  position: relative;
+}

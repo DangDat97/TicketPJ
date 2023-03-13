@@ -1,0 +1,192 @@
+<section class="section-e1 section">
+  <div class="over-lay-bg"></div>
+  <div class="contact">
+    <div class="container">
+      <div class="home">
+        <h1>Contact</h1>
+        <div class="ngang"></div>
+        <h6>Home<i class="bi bi-chevron-double-right"></i> Contact</h6>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="section-e2">
+  <div class="container">
+    <div class="row">
+      <div class="col-6">
+        <div class="Get-In-Touch">
+          <h5>Get In Touch</h5>
+          <div class="ngang"></div>
+          <h1>Let's Talk With Us</h1>
+          <p>Let's us know what you think for better services</p>
+        </div>
+        <div class="row">
+          <div class="col-6">
+            <div class="row">
+              <div class="col-2">
+                <div class="icon">
+                  <i class="bi bi-geo-alt-fill"></i>
+                </div>
+              </div>
+              <div class="col-10">
+                <div class="location">
+                  <h5>Location</h5>
+                  <p>Legian Atkins West, DPS</p>
+                  <p>11490, Bali</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-6">
+            <div class="row">
+              <div class="col-2">
+                <div class="icon">
+                  <i class="bi bi-clock"></i>
+                </div>
+              </div>
+              <div class="col-10">
+                <div class="location">
+                  <h5>Opening Hours</h5>
+                  <p>Everyday 09:00 AM</p>
+                  <p>18:00 PM</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-6 card-e3">
+            <div class="row">
+              <div class="col-2">
+                <div class="icon">
+                  <i class="bi bi-telephone"></i>
+                </div>
+              </div>
+              <div class="col-10">
+                <div class="location">
+                  <h5>Contact</h5>
+                  <p>+62-202-555-0133</p>
+
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-6 card-e3">
+            <div class="row">
+              <div class="col-2">
+                <div class="icon">
+                  <i class="bi bi-envelope-open"></i>
+                </div>
+              </div>
+              <div class="col-10">
+                <div class="location">
+                  <h5>Email</h5>
+                  <p>aquavist@domain.com</p>
+                </div>
+              </div>
+            </div>
+
+          </div>
+          <div class="ngang-one"></div>
+          <div class="Social-Media">
+            <div class="row">
+              <div class="col-6">
+                <div class="Social-Media">
+                  <h5>Social Media :</h5>
+                </div>
+              </div>
+              <div class="col-6">
+                <div class="icon-one">
+                  <i class="bi bi-facebook"></i>
+                  <i class="bi bi-instagram"></i>
+                  <i class="bi bi-telephone-inbound"></i>
+                  <i class="bi bi-youtube"></i>
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-6">
+        <form #myForm="ngForm" [formGroup]="infoUser" (ngSubmit)="onSubmit(myForm.value)" class="leave-a-message">
+          <h1>Leave A Message</h1>
+          <div class="row form-message">
+            <div class="col-6">
+              <label for="control-name" class="form-label">Name</label>
+              <input type="text" class="form-control" id="control-name" formControlName="name" placeholder="Your name">
+              <div *ngIf="n.name.invalid&&(n.name.dirty||n.name.touched)">
+                <div *ngIf="n.name.errors" class="errors">
+                  <div *ngIf="n.name.errors?.['required']">
+                    <p>Name cannot be empty</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-6">
+              <label for="control-email" class="form-label" >Email</label>
+              <input type="email" class="form-control" id="control-email" formControlName="email" placeholder="Your email">
+              <div *ngIf="f.email.invalid&&(f.email.dirty||f.email.touched)">
+                <div *ngIf="f.email.errors" class="errors">
+                  <div *ngIf="f.email.errors?.['required']">
+                    <p>Email cannot be empty</p>
+                  </div>
+                  <div *ngIf="f.email.errors?.['email']">
+                    <p>Email format is incorrect</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row form-message">
+            <div class="col-6">
+              <label for="control-subject" class="form-label">Subject</label>
+              <input type="text" class="form-control" id="control-subject" formControlName="Subject" placeholder="Your Subject">
+              <div *ngIf="S.Subject.invalid&&(S.Subject.dirty||S.Subject.touched)">
+                <div *ngIf="S.Subject.errors" class="errors">
+                  <div *ngIf="S.Subject.errors?.['required']">
+                    <p>Subject cannot be empty</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-6">
+              <label for="control-phone" class="form-label">Phone</label>
+              <input type="email" class="form-control" id="control-phone" formControlName="phone" placeholder="Your phone">
+              <div *ngIf="p.phone.invalid&&(p.phone.dirty||p.phone.touched)">
+                <div *ngIf="p.phone.errors" class="errors">
+                  <div *ngIf="p.phone.errors?.['required']">
+                    <p>Phone cannot be empty</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="textarea">
+            <label for="exampleFormControlTextarea1" class="form-label">Message</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" formControlName="message" placeholder="Your message "></textarea>
+            <div *ngIf="m.message.invalid&&(m.message.dirty||m.message.touched)">
+              <div *ngIf="m.message.errors" class="errors">
+                <div *ngIf="m.message.errors?.['required']">
+                  <p>Message cannot be empty</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="d-grid gap-2 pt-4">
+            <button type="submit" class="btn btn-primary" (click)="reload" [disabled]="!infoUser.valid" >Send</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="section-e4">
+  <div class="container">
+    <div class="map">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3112.385185328096!2d105.89865199126862!3d20.86836133322798!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135b1a1973dc2b9%3A0xaeab02b1ccfeb4f3!2zxJBUNDI3LCBWxINuIFThuqNvLCBUaMaw4budbmcgVMOtbiwgSMOgIE7hu5lpLCBWaeG7h3QgTmFt!5e0!3m2!1svi!2s!4v1676421970877!5m2!1svi!2s" width="100%" height="500" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+  </div>
+
+</section>
+
+
+

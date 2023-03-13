@@ -1,0 +1,118 @@
+<section class="section section-e1">
+  <div class="contact">
+    <div class="container">
+      <div class="home">
+        <h1>Ticket</h1>
+        <div class="ngang"></div>
+        <h6>Home<i class="bi bi-chevron-double-right"></i> Ticket</h6>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="section section-e2">
+  <div class="container">
+    <div class="row">
+      <div class="col-6">
+        <div class="Get-In-Touch">
+          <h5>Get Ticket</h5>
+          <div class="ngang"></div>
+          <h1>My Order</h1>
+          <div class="ticket" *ngIf="ticket.name != ''" style="color: red;" >
+            <div class="row">
+              <div class="col-4">
+                <img [src]="ticket.images" alt="">
+              </div>
+              <div class="col-8">
+                <h1>Event:{{ticket.name}}</h1>
+                <span>Time:{{ticket.timeBegin | date}} to {{ticket.timeEnd | date}}</span>
+                <h3>Price: {{ticket.price}} $</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <div class="col-6">
+        <form #myForm="ngForm" [formGroup]="infoUser" (ngSubmit)="onSubmit(myForm.value)" class="leave-a-message">
+          <h1>Book Tickets</h1>
+          <div class="row form-message">
+            <div class="col-6">
+              <label for="control-name" class="form-label">Name</label>
+              <input type="text" class="form-control" id="control-name" formControlName="name" placeholder="Your name">
+              <div *ngIf="f.name.invalid&&(f.name.dirty||f.name.touched)">
+                <div *ngIf="f.name.errors" class="errors">
+                  <div *ngIf="f.name.errors?.['required']">
+                    <p>Name cannot be empty</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-6">
+              <label for="control-email" class="form-label" >Email</label>
+              <input type="email" class="form-control" id="control-email" formControlName="email" placeholder="Your email">
+              <div *ngIf="f.email.invalid&&(f.email.dirty||f.email.touched)">
+                <div *ngIf="f.email.errors" class="errors">
+                  <div *ngIf="f.email.errors?.['required']">
+                    <p>Email cannot be empty</p>
+                  </div>
+                  <div *ngIf="f.email.errors?.['email']">
+                    <p>Email format is incorrect</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row form-message">
+            <div class="col-6">
+              <label class="form-label">Event</label>
+              <select class="form-control" formControlName="event">
+                <option *ngFor="let e of events" [value]="e.id">
+                  {{e.name}}
+                </option>
+              </select>
+            </div>
+            <div class="col-6">
+              <label for="control-phone" class="form-label">Phone</label>
+              <input type="email" class="form-control" id="control-phone" formControlName="phone" placeholder="Your phone">
+              <div *ngIf="f.phone.invalid && (f.phone.dirty||f.phone.touched)">
+                <div *ngIf="f.phone.errors" class="errors">
+                  <div *ngIf="f.phone.errors?.['required']">
+                    <p>Phone cannot be empty</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="textarea">
+            <label class="form-label">How many will be visiting?</label>
+            <div class="num-amount">
+              <span class="material-symbols-outlined" (click)="minusNum(num)"><i class="bi bi-dash-square"></i></span>
+              <input type="number" maxlength="10" formControlName="num" value="{{infoUser.value.num}}">
+              <span class="material-symbols-outlined" (click)="plushNum(num)"><i class="bi bi-plus-square"></i></span>
+            </div>
+            <div *ngIf="f.num.invalid&&(f.num.dirty||f.num.touched)">
+              <div *ngIf="f.num.errors" class="errors">
+                <div *ngIf="f.num.errors?.['required']">
+                  <p> cannot be empty</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="d-grid gap-2 pt-4">
+            <button type="submit" class="btn btn-primary" [disabled]="!infoUser.valid" >Booking</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="section section-e4">
+  <div class="container">
+    <div class="map">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3112.385185328096!2d105.89865199126862!3d20.86836133322798!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135b1a1973dc2b9%3A0xaeab02b1ccfeb4f3!2zxJBUNDI3LCBWxINuIFThuqNvLCBUaMaw4budbmcgVMOtbiwgSMOgIE7hu5lpLCBWaeG7h3QgTmFt!5e0!3m2!1svi!2s!4v1676421970877!5m2!1svi!2s" width="100%" height="500" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+  </div>
+
+</section>
+
+
